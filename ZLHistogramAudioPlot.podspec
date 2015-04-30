@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.frameworks   = "UIKit", "Accelerate"
   s.requires_arc = true
   # s.dependency "EZAudio"
-  s.dependency "EZAudio", :git => 'git@github.com:adiaye/EZAudio.git'
+  s.dependency "EZAudio", :git => 'git@github.com:adaiye/EZAudio.git'
 end

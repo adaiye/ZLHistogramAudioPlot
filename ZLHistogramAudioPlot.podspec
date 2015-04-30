@@ -14,5 +14,6 @@ Pod::Spec.new do |s|
   s.source_files = "ZLHistogramAudioPlot/*.{h,m}"
   s.frameworks   = "UIKit", "Accelerate"
   s.requires_arc = true
-  s.dependency "EZAudio"
+  # s.dependency "EZAudio"
+  s.dependency "EZAudio", :git => 'git@github.com:adaiye/EZAudio.git'
 end
